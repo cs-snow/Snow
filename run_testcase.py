@@ -18,5 +18,5 @@ if __name__ == '__main__':
     # 输出结果到HTML
     filename = test_report_path + "\\" + now + '_result.html'
     with open(filename, 'wb') as fp:
-        runner = HTMLTestRunner(stream=fp, title="运营控制台测试报告", description="自动用例执行情况")
+        runner = HTMLTestRunner(stream=fp, title="xxx测试报告", description="自动用例执行情况")
         runner.run(discvoer)
